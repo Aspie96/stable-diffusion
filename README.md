@@ -1,3 +1,17 @@
+# This fork
+
+This repository is a fork of the latest open source version of the official [Stable Diffusion](https://github.com/CompVis/stable-diffusion) repository.
+
+Stable Diffusion is currently available under the [CreativeML OpenRAIL-M license](https://github.com/CompVis/stable-diffusion/blob/main/LICENSE), a custom proprietary license based on the [BigScience RAIL License](https://bigscience.huggingface.co/blog/the-bigscience-rail-license). While the license has been designed for source code, as suggested by its [name](https://www.licenses.ai/blog/2022/8/18/naming-convention-of-responsible-ai-licenses), it is applied to the GitHub repository as a whole, which includes source code.
+
+The CreativeML OpenRAIL-M license contains use-based restrictions, asserts that the licensee is accountable for generated outputs and their subsequent uses and even requires the licensee to update the model to the latest version (if it can be done trough reasonable efforts).
+
+Older versions of the repository have been released under the MIT license, a free and open source software license. There was unfortunately no indication that this also applied to available weights, so only the source code itself can be treated as free software.
+
+Whether the weights of trained models are copyrightable at all is an open question, the answer to which may vary by jurisdiction. Trained models are a different artifact to source code. Several aspects of copyright law come from the [Berne Convention for the Protection of Literary and Artistic Works](https://wipolex.wipo.int/en/text/283698) and software is covered by copyright as a kind of literary work in the [United States](https://www.copyright.gov/eco/help-type.html) and the [Europen Union](http://data.europa.eu/eli/dir/2009/24/oj). Even if trained models were found to be part of one of the categories of copyrightable works, a question would exist of whether their creation requires a modicum of creativity from a human actor, and whether this is necessary for copyright protection. In the United States, copyright only protects [the fruits of intellectual labor](https://www.copyright.gov/rulings-filings/review-board/docs/a-recent-entrance-to-paradise.pdf), but in the United Kingdom computer-generated works [can](https://www.legislation.gov.uk/ukpga/1988/48/contents) be covered by copyright.
+
+If it is found that trained models cannot be protected by copyright and if no other rights apply to the Stable Diffusion models, it should be possible to use this copy of the source code with the official trained weights. Otherwise, retraining the model is needed in order to have a fully free alternative.
+
 # Latent Diffusion Models
 [arXiv](https://arxiv.org/abs/2112.10752) | [BibTeX](#bibtex)
 
